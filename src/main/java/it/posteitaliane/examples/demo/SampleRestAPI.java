@@ -1,0 +1,15 @@
+package it.posteitaliane.examples.demo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SampleRestAPI {
+
+    // Find
+    @GetMapping("/helloworld")
+    String findAll() {
+        return "helloWorld!";
+    }
+
+}
