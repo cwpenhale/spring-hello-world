@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-stretch
 
-RUN yum update && yum install redis mysql something-else
+RUN yum update && yum install redis something-new mysql something-else
 
 COPY target/demo-0.0.1-SNAPSHOT.jar /opt/demo.jar
 
